@@ -15,6 +15,7 @@
       <el-select v-model="ruleForm.region" placeholder="Activity zone">
         <el-option label="Zone one" value="shanghai" />
         <el-option label="Zone two" value="beijing" />
+        <el-option label="Zone three" value="nanjing" />
       </el-select>
     </el-form-item>
     <el-form-item label="Activity count" prop="count">
